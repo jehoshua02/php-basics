@@ -250,7 +250,7 @@ Use traits to share functionality across classes that do not or cannot extend a 
 
 Classes `use` traits. Classes can `use` multiple traits. The class inherits methods and properties from the trait.
 
-If you ever need to figure out inheritance precedence, see https://www.php.net/manual/en/language.oop5.traits.php
+If you ever need to figure out inheritance precedence, you need to rethink your purpose in life. But this might help: https://www.php.net/manual/en/language.oop5.traits.php
 
 You can compose traits into other traits, again with the `use` keyword.
 
