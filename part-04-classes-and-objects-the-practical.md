@@ -254,4 +254,4 @@ If you ever need to figure out inheritance precedence, you need to rethink your 
 
 You can compose traits into other traits, again with the `use` keyword.
 
-You can make your code as complex as you want with traits!
+You can make your code as complex as you want with traits! So cool!
