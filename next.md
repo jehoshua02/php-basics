@@ -1,7 +1,6 @@
 Maybe Next:
 
 Remainder of Language Reference
-- Namespaces
 - Errors
 - Exceptions
 - Generators
@@ -13,7 +12,6 @@ Remainder of Language Reference
 - Supported Protocsols and Wrappers
 
 Starting a PHP Project from Scratch
-Composer
 Autoloading Strategies
 PHPUnit
 Mockery
