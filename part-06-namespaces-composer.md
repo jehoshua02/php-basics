@@ -175,13 +175,13 @@ You install packages with composer. Those packages have classes, under their own
 
 PHP doesn't automatically know where to load these classes from. Do you remember `spl_autoload_register`? A function must be registered to teach PHP how to load the classes when they are requested in your code.
 
-Composer generates an autoload script, which registers it's own autloading function with PHP. Composer generates this script based on the autload configuration in each packages `composer.json`.
+Composer generates an autoload script, which registers it's own autoloading function with PHP. Composer generates this script based on the autoload configuration in each packages `composer.json`.
 
 PSR-4 is the standard autoloading strategy, which maps a namespace to a folder, and assumes everything under that namespace lines up with the structure in that folder. With PSR-4, the autoloading files do not need to be regenerated when a new class is added, since the namespace to folder mapping is handled dynamically.
 
 Classmap, or PSR-0, is another autoloading strategy, which scans the folder for all classes, then generates a map pointing fully qualified class names to the file path in which they were found. This was utilized when namespaces were first introduced, to be compatible with legacy code. Now it's primarily used to optimize autoloading. The classmap must be regenerated to pick up new classes.
 
-You configure autloading for your own classes in your own `composer.json`.
+You configure autoloading for your own classes in your own `composer.json`.
 
 Let's get into it!
 
