@@ -344,6 +344,7 @@ https://phpunit.readthedocs.io/en/8.4/assertions.html
 6. Complete an exercise or two.
 
 ### CodeWars
+
 1. Visit https://www.codewars.com.
 2. Create an account.
 3. Set your clan to `@LendioDevs`
