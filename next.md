@@ -1,24 +1,7 @@
 # Next
 
-PHP Language Reference
-- Errors
-- Exceptions
-
-PHPUnit
-
-- 1. Installing PHPUnit
-- 2. Writing Tests for PHPUnit
-- 3. The Command-Line Test Runner
-- 4. Fixtures
-- 5. Organizing Tests
-- 6. Risky Tests
-- 7. Incomplete and Skipped Tests
-- Assertions (at a glance)
-
-Practice
-
-- Get setup with Exercism
-- Get setup with Codewars
+- PHPUnit Test Doubles
+- Mockery
 
 # Ideas
 
@@ -30,7 +13,6 @@ Practice
 
 ### PHPUnit
 
-8. Test Doubles
 9. Code Coverage Analysis
 10. Logging
 11. Extending PHPUnit
